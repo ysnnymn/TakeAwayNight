@@ -7,13 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{531B50BB-A3DB-4099-BEC2-9BA82118E05E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeAwayNight.Catalog", "Services\Catalog\TakeAwayNight.Catalog\TakeAwayNight.Catalog.csproj", "{7FFB9188-FFE4-49E1-B756-D1B22C45E333}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakeAwayNight.Catalog", "Services\Catalog\TakeAwayNight.Catalog\TakeAwayNight.Catalog.csproj", "{7FFB9188-FFE4-49E1-B756-D1B22C45E333}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{3D72D9C9-60C2-4B5A-99E5-BEE9AF0F209B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{1F389545-C757-46E1-91ED-70D57FD13F73}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requriments", "Requriments", "{17EF62A2-BECF-42B4-816C-172C7D0F5908}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{2849A82A-9255-4F0A-9A33-05F1ED0F3F1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeAwayNight.Discount", "Services\Discount\TakeAwayNight.Discount\TakeAwayNight.Discount.csproj", "{E3536F2E-9E69-42A6-B931-673911189BFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{7FFB9188-FFE4-49E1-B756-D1B22C45E333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFB9188-FFE4-49E1-B756-D1B22C45E333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFB9188-FFE4-49E1-B756-D1B22C45E333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3536F2E-9E69-42A6-B931-673911189BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3536F2E-9E69-42A6-B931-673911189BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3536F2E-9E69-42A6-B931-673911189BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3536F2E-9E69-42A6-B931-673911189BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{531B50BB-A3DB-4099-BEC2-9BA82118E05E} = {1C0705C5-402A-47EC-B28E-3C3A31A82596}
 		{7FFB9188-FFE4-49E1-B756-D1B22C45E333} = {531B50BB-A3DB-4099-BEC2-9BA82118E05E}
+		{2849A82A-9255-4F0A-9A33-05F1ED0F3F1E} = {1C0705C5-402A-47EC-B28E-3C3A31A82596}
+		{E3536F2E-9E69-42A6-B931-673911189BFF} = {2849A82A-9255-4F0A-9A33-05F1ED0F3F1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0052395-F06F-44F3-881F-FA1630281BA1}
